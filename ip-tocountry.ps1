@@ -15,10 +15,7 @@
 .EXAMPLE
     another example of how tun run the script
 
-    ff test hierfffff
-    ffff
-    ss
-
+   
 .NOTES
     Authors   : <Full Name>
     Date      : <date>
