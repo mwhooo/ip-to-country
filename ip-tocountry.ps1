@@ -10,11 +10,11 @@
 
 .EXAMPLE
     Example of how to run your script
-    SetAdmissionControl -vCenters swuhtv001 -clustername uh2_GH4_z01
+    
 	
 .EXAMPLE
     another example of how tun run the script
-	SetAdmissionControl -vCenters swuhtv001 -clustername Clust_01_test_y01
+
 
 .NOTES
     Authors   : <Full Name>
