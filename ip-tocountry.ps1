@@ -15,7 +15,7 @@
 .EXAMPLE
     another example of how tun run the script
 
-    ff test hier
+    ff test hierfffff
     ffff
 
 
