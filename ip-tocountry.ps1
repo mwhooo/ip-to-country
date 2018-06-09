@@ -15,8 +15,7 @@
 .EXAMPLE
     another example of how tun run the script
 
-    ff test hierfffff
-    ffff
+    junk weg
 
 
 .NOTES
