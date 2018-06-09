@@ -15,9 +15,6 @@
 .EXAMPLE
     another example of how tun run the script
 
-    junk weg
-
-
 .NOTES
     Authors   : <Full Name>
     Date      : <date>
