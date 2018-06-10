@@ -127,9 +127,6 @@ function returnResults($ip) {
 Add-Type -AssemblyName System.speech
 $Script:speak = New-Object System.Speech.Synthesis.SpeechSynthesizer
 $Obj = Invoke-WebRequest -Uri https://www.pdq.com/blog/powershell-text-to-speech-examples/
-$Obj | Show-Object
-
-
 
 #$speak.Speak('SO here we can paste information and it will be spoken')
 
