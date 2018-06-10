@@ -88,6 +88,9 @@ function returnResults($ip) {
     [xml]$retval = $Script:Web.DownloadString($Url)
     $Country = $retval.location.country_name
 
+    if (-not($Country)) {
+        $Country = "No Country found"
+    }
 
     #$Script:speak.SpeakAsync($Country)
     #above is an example on how to pass text to the speech engine, so she or he can read is for you
@@ -149,9 +152,3 @@ $Script:Web.Dispose()
 
 Write-MRBMessage -Message "Script stopped" -Category INFO -LogFile $Script:LogFile
  
-<<<<<<< HEAD
-#end comment added by mark for gittest
-=======
-#this is the end of the script and just a test for my versioning control system on github
-#ddddddddddd
->>>>>>> d6f22e4d681c15df3b309fe88923fdba7415c824
