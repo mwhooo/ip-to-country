@@ -155,5 +155,9 @@ $Script:Web.Dispose()
 
 Write-MRBMessage -Message "Script stopped" -Category INFO -LogFile $Script:LogFile
  
+<<<<<<< HEAD
+#end comment added by mark for gittest
+=======
 #this is the end of the script and just a test for my versioning control system on github
 #ddddddddddd
+>>>>>>> d6f22e4d681c15df3b309fe88923fdba7415c824
