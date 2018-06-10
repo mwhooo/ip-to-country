@@ -8,12 +8,9 @@
 .PARAMETER Param
     Description for each parameter, describe each param, add params when needed.
 
-.EXAMPLE
-    Example of how to run your script
-    
 	
 .EXAMPLE
-    another example of how tun run the script
+    open the script in ISE and just press F5 to start
 
 .NOTES
     Authors   : <Full Name>
